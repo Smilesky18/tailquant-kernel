@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Compiled / build artifacts
+*.so
+*.o
+*.a
+build/
+dist/
+torch_extensions/
+.cache/
+.ninja_*/
+
+# Temporary files
+tmp/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Large experiment outputs
+results/
+reports/
+
+# Misc
+core
+core.*
+.DS_Store
